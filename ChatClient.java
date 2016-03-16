@@ -54,7 +54,6 @@ public class ChatClient extends JFrame implements Runnable {
                             dout.writeUTF(LoginName + " " + "DATA " + tf.getText().toString());
                         }
                         tf.setText("");
-                        dout.writeUTF(LoginName + " " + "DATA " + tf.getText().toString());
                     } catch (IOException e1) {
                         e1.printStackTrace();
                     }
